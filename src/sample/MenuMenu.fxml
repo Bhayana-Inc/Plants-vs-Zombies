@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuMenuController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="800.0" layoutY="-33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/LEVEL.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="117.0" fitWidth="348.0" layoutX="438.0" layoutY="284.0" onMouseClicked="#endgame" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/33.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="363.0" layoutX="31.0" layoutY="174.0" onMouseClicked="#gamescreen" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/22.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="372.0" layoutX="428.0" layoutY="173.0" onMouseClicked="#gamescreen" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/11.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="293.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU">
+         <font>
+            <Font size="68.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="87.0" fitWidth="231.0" layoutX="93.0" layoutY="276.0" onMouseClicked="#mainmenuscreen" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/mainmeenu.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

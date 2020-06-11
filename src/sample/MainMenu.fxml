@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenuController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="809.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/Picture 2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="393.0" layoutY="158.0" onMouseClicked="#gamescreen" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/LOAD GAME.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="592.0" layoutY="157.0" onMouseClicked="#endgame" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/END GAME.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="223.0" layoutX="185.0" layoutY="158.0" onMouseClicked="#selectlevelscreen" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/START GAME.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="65.0" layoutX="14.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/MUSIC.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="223.0" layoutX="11.0" layoutY="8.0" onMouseClicked="#selectuserscreen" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Layer 3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="241.0" layoutX="467.0" layoutY="393.0" onMouseClicked="#leaderboardscreen" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/leaderboard.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

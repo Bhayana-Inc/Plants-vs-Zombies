@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SelectUserController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/Picture3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="322.0" layoutX="239.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/SELECT USER.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="257.0" layoutX="272.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/uihyughihi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="257.0" layoutX="273.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/uihyughihi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="257.0" layoutX="272.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/uihyughihi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="257.0" layoutX="273.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/uihyughihi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="257.0" layoutX="272.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/uihyughihi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="232.0" layoutX="301.0" layoutY="356.0" onMouseClicked="#newuserscreen" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/NEW USER.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="339.0" layoutY="143.0" onMouseClicked="#mainmenuscreen" strokeType="OUTSIDE" strokeWidth="0.0" text="rachit" textAlignment="CENTER" wrappingWidth="122.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="340.0" layoutY="190.0" onMouseClicked="#mainmenuscreen" strokeType="OUTSIDE" strokeWidth="0.0" text="rachit" textAlignment="CENTER" wrappingWidth="122.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="341.0" layoutY="238.0" onMouseClicked="#mainmenuscreen" strokeType="OUTSIDE" strokeWidth="0.0" text="rachit" textAlignment="CENTER" wrappingWidth="122.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="342.0" layoutY="284.0" onMouseClicked="#mainmenuscreen" strokeType="OUTSIDE" strokeWidth="0.0" text="rachit" textAlignment="CENTER" wrappingWidth="122.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="343.0" layoutY="331.0" onMouseClicked="#mainmenuscreen" strokeType="OUTSIDE" strokeWidth="0.0" text="rachit" textAlignment="CENTER" wrappingWidth="122.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

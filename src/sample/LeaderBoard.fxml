@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LeaderBoardController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/LEVEL.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="378.0" layoutX="211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/leaderboard.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="169.0" layoutX="-7.0" layoutY="364.0" onMouseClicked="#mainmenuscreen" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="378.0" layoutX="211.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/name.png" />
+         </image>
+      </ImageView>
+      <Text fill="#f2eeee" layoutX="289.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="rachit     6500" wrappingWidth="221.33669662475586">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="137.0" fitWidth="378.0" layoutX="208.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/name.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="378.0" layoutX="208.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/name.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="378.0" layoutX="207.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/name.png" />
+         </image>
+      </ImageView>
+      <Text fill="#f2eeee" layoutX="288.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="rachit     6500" wrappingWidth="221.33669662475586">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#f2eeee" layoutX="289.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="rachit     6500" wrappingWidth="221.33669662475586">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#f2eeee" layoutX="288.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="rachit     6500" wrappingWidth="221.33669662475586">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
